@@ -1,0 +1,119 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 84px; /* bottom = footer height */
+}
+
+header{
+  height: 80px;
+  margin: 0 0 30px 0;
+  background-image: url("/img/sayagata-400px.png");
+  border-bottom: 4px solid #F98D2B;
+}
+
+header h2{
+  text-align: center;
+  line-height: 80px;
+  margin: 0;
+}
+
+header h2 a{
+  color: #F98D2B;
+}
+
+/*simple footer*/
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 84px;
+    width: 100%;
+    background-image: url("/img/sayagata-400px.png");
+    border-top: 4px solid #F98D2B;
+}
+
+footer h2{
+  text-align: center;
+  line-height: 84px;
+  margin: 0;
+}
+/*end simple footer*/
+
+.wrapper{
+  overflow: auto;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/*product styles*/
+.product *{
+  margin: 0;
+}
+
+.product .info{
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+.product .info .price{
+  color: #F98D2B;
+  float: left;
+}
+
+.product .info{
+  border-top: 4px solid #F98D2B;
+  border-bottom: 4px solid #F98D2B;
+}
+
+.product .info .details{
+  display: block;
+  background-color: #F98D2B;
+  text-align: center;
+  line-height: 26px;
+  width: 100px;
+  height: 26px;
+  float: right;
+}
+
+.product .info .details a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #FFF;
+}
+
+/*image-styles*/
+.img-container{
+  width: 100%;
+  height:200px;
+  overflow: hidden;
+}
+
+.img-container img{
+  width: 100%;
+}
+
+/*details-styles*/
+.img-details-container{
+
+}
+
+.img-details-container img{
+  width: 100%;
+}
+
+.detail-info{
+  overflow:hidden;
+  margin: 0 0 84px 0;
+}
+
+.detail-info h3{
+  margin: 0 0 0 0;
+}
+
+.description{
+  border-top: 4px solid #F98D2B;
+  margin: 20px 0 0 0;
+}
